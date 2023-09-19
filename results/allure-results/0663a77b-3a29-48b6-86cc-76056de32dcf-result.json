@@ -1,0 +1,221 @@
+{
+    "name": "failedLoginWithEmptyLoginAndPass",
+    "start": 1695068189112,
+    "stop": 1695068213426,
+    "stage": "finished",
+    "description": "Безуспешеный логин с с пустыми логином и паролем через страницу авторизации приложения 'Мобильный хоспис' (Негативный)",
+    "descriptionHtml": null,
+    "status": "passed",
+    "statusDetails": null,
+    "steps": [
+        {
+            "name": "Ожидание загрузкт страницы с указанным элементом",
+            "start": 1695068190171,
+            "stop": 1695068190171,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Ожидание загрузкт страницы с указанным элементом",
+            "start": 1695068193352,
+            "stop": 1695068193355,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Выбор поля для ввода данных",
+            "start": 1695068193396,
+            "stop": 1695068193396,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Заполнение выбранного поля текстом: {inputText}",
+            "start": 1695068194007,
+            "stop": 1695068194007,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Выбор поля для ввода данных",
+            "start": 1695068194656,
+            "stop": 1695068194656,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Заполнение выбранного поля текстом: {inputText}",
+            "start": 1695068195248,
+            "stop": 1695068195248,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Клик по выбранному элементу на странице",
+            "start": 1695068195795,
+            "stop": 1695068195795,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Проверка того, что войти в приложение (логин) НЕ удалось",
+            "start": 1695068196150,
+            "stop": 1695068196151,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Ожидание загрузкт страницы с указанным элементом",
+            "start": 1695068196153,
+            "stop": 1695068196153,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Проверка, что отображается страница с указанным элементом",
+            "start": 1695068211221,
+            "stop": 1695068211221,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        }
+    ],
+    "attachments": [
+    ],
+    "parameters": [
+    ],
+    "uuid": "0663a77b-3a29-48b6-86cc-76056de32dcf",
+    "historyId": "e3387e571cbffb7ab03ecca10a361883",
+    "fullName": "ru.iteco.fmhandroid.ui.tests.LoginTest.failedLoginWithEmptyLoginAndPass",
+    "labels": [
+        {
+            "name": "package",
+            "value": "ru.iteco.fmhandroid.ui.tests"
+        },
+        {
+            "name": "testClass",
+            "value": "ru.iteco.fmhandroid.ui.tests.LoginTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "failedLoginWithEmptyLoginAndPass"
+        },
+        {
+            "name": "suite",
+            "value": "ru.iteco.fmhandroid.ui.tests.LoginTest"
+        },
+        {
+            "name": "host",
+            "value": "localhost"
+        },
+        {
+            "name": "thread",
+            "value": "Instr: androidx.test.runner.AndroidJUnitRunner(70)"
+        },
+        {
+            "name": "framework",
+            "value": "junit4"
+        },
+        {
+            "name": "language",
+            "value": "kotlin"
+        },
+        {
+            "name": "story",
+            "value": "Case 3. Безуспешеный логин с пустыми логином и паролем"
+        },
+        {
+            "name": "epic",
+            "value": "Тесты для функционального тестирования: логин(вход) и логаут(выход) из личного кабинета(ЛК) мобильного приложения 'Мобильный хоспис' "
+        }
+    ]
+}

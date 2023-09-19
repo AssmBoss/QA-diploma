@@ -1,0 +1,173 @@
+{
+    "name": "addNewClaimCurrentDataMainMenuTest",
+    "start": 1694290005028,
+    "stop": 1694290060959,
+    "stage": "finished",
+    "description": "Создание новой претензии с текущей датой и временем через вкладку Главное меню мобильного приложения Мобильный хоспис (Позитивный)",
+    "descriptionHtml": null,
+    "status": "passed",
+    "statusDetails": null,
+    "steps": [
+        {
+            "name": "Добавить заголовок новой Претензии",
+            "start": 1694290017135,
+            "stop": 1694290017137,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Выбрать исполнителя новой Претензии",
+            "start": 1694290017305,
+            "stop": 1694290017305,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Выбрать текущую дату новой Претензии",
+            "start": 1694290018985,
+            "stop": 1694290018985,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Выбрать текущее время новой Претензии",
+            "start": 1694290020742,
+            "stop": 1694290020742,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Добавить описание новой Претензии",
+            "start": 1694290022949,
+            "stop": 1694290022949,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Сохранение новой Претензии",
+            "start": 1694290023001,
+            "stop": 1694290023001,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Найти добавленную претензию через Все претензии",
+            "start": 1694290043548,
+            "stop": 1694290043549,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        }
+    ],
+    "attachments": [
+    ],
+    "parameters": [
+    ],
+    "uuid": "db773f2a-60b6-4a8b-855d-e380ea94dce6",
+    "historyId": "9f6a586981e3a62eb4e18105b19780fa",
+    "fullName": "ru.iteco.fmhandroid.ui.tests.ClaimsTest.addNewClaimCurrentDataMainMenuTest",
+    "labels": [
+        {
+            "name": "package",
+            "value": "ru.iteco.fmhandroid.ui.tests"
+        },
+        {
+            "name": "testClass",
+            "value": "ru.iteco.fmhandroid.ui.tests.ClaimsTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "addNewClaimCurrentDataMainMenuTest"
+        },
+        {
+            "name": "suite",
+            "value": "ru.iteco.fmhandroid.ui.tests.ClaimsTest"
+        },
+        {
+            "name": "host",
+            "value": "localhost"
+        },
+        {
+            "name": "thread",
+            "value": "Instr: androidx.test.runner.AndroidJUnitRunner(61)"
+        },
+        {
+            "name": "framework",
+            "value": "junit4"
+        },
+        {
+            "name": "language",
+            "value": "kotlin"
+        },
+        {
+            "name": "story",
+            "value": "16. Добавление новой претензии с текущей датой и временем через Главное меню"
+        },
+        {
+            "name": "epic",
+            "value": "Тест-кейсы для проведения функционального тестирования вкладки Претензии мобильного приложения Мобильный хоспис"
+        }
+    ]
+}

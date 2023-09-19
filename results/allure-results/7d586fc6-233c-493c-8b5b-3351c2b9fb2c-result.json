@@ -1,0 +1,61 @@
+{
+    "name": "failedLoginWithWrongPassword",
+    "start": 1694550600934,
+    "stop": 1694550625015,
+    "stage": "finished",
+    "description": "Безуспешеный логин с валидным логином login2 и невалидным паролем password через страницу авторизации приложения 'Мобильный хоспис' (Негативный)",
+    "descriptionHtml": null,
+    "status": "passed",
+    "statusDetails": null,
+    "steps": [
+    ],
+    "attachments": [
+    ],
+    "parameters": [
+    ],
+    "uuid": "7d586fc6-233c-493c-8b5b-3351c2b9fb2c",
+    "historyId": "6d26e386abd340b7371cbef496537aab",
+    "fullName": "ru.iteco.fmhandroid.ui.tests.LoginTest.failedLoginWithWrongPassword",
+    "labels": [
+        {
+            "name": "package",
+            "value": "ru.iteco.fmhandroid.ui.tests"
+        },
+        {
+            "name": "testClass",
+            "value": "ru.iteco.fmhandroid.ui.tests.LoginTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "failedLoginWithWrongPassword"
+        },
+        {
+            "name": "suite",
+            "value": "ru.iteco.fmhandroid.ui.tests.LoginTest"
+        },
+        {
+            "name": "host",
+            "value": "localhost"
+        },
+        {
+            "name": "thread",
+            "value": "Instr: androidx.test.runner.AndroidJUnitRunner(64)"
+        },
+        {
+            "name": "framework",
+            "value": "junit4"
+        },
+        {
+            "name": "language",
+            "value": "kotlin"
+        },
+        {
+            "name": "story",
+            "value": "4. Безуспешеный логин с валидным логином и невалидным паролем"
+        },
+        {
+            "name": "epic",
+            "value": "Тесты для функционального тестирования: логин(вход) и логаут(выход) из личного кабинета(ЛК) мобильного приложения 'Мобильный хоспис' "
+        }
+    ]
+}

@@ -1,0 +1,69 @@
+{
+    "name": "followTheLinkPrivacyPolicyTest",
+    "start": 1694462389307,
+    "stop": 1694462488627,
+    "stage": "finished",
+    "description": "Перейти по ссылке Политика конфиденциальности во вкладке О приложении мобильного приложения Мобильный хоспис и дождаться загрузки информации (Позитивный)",
+    "descriptionHtml": null,
+    "status": "failed",
+    "statusDetails": {
+        "message": "Wanted to match 1 intents. Actually matched 0 intents.\n\nIntentMatcher: has data: is <https://vhospice.org/#/privacy-policy>\n\nMatched intents:[]\n\nRecorded intents:\n-Intent { act=android.intent.action.VIEW dat=https://vhospice.org/... (has extras) } handling packages:[[]], extras:[Bundle[{com.android.browser.application_id=ru.iteco.fmhandroid}]])",
+        "trace": "junit.framework.AssertionFailedError: Wanted to match 1 intents. Actually matched 0 intents.\n\nIntentMatcher: has data: is <https://vhospice.org/#/privacy-policy>\n\nMatched intents:[]\n\nRecorded intents:\n-Intent { act=android.intent.action.VIEW dat=https://vhospice.org/... (has extras) } handling packages:[[]], extras:[Bundle[{com.android.browser.application_id=ru.iteco.fmhandroid}]])\n\tat junit.framework.Assert.fail(Assert.java:50)\n\tat androidx.test.espresso.intent.VerificationModes$Times.verify(VerificationModes.java:80)\n\tat androidx.test.espresso.intent.Intents.internalIntended(Intents.java:350)\n\tat androidx.test.espresso.intent.Intents$3.run(Intents.java:208)\n\tat androidx.test.espresso.intent.Intents$PropogatingRunnable.run(Intents.java:228)\n\tat java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:462)\n\tat java.util.concurrent.FutureTask.run(FutureTask.java:266)\n\tat android.app.Instrumentation$SyncRunnable.run(Instrumentation.java:2266)\n\tat android.os.Handler.handleCallback(Handler.java:938)\n\tat android.os.Handler.dispatchMessage(Handler.java:99)\n\tat android.os.Looper.loopOnce(Looper.java:201)\n\tat android.os.Looper.loop(Looper.java:288)\n\tat android.app.ActivityThread.main(ActivityThread.java:7839)\n\tat java.lang.reflect.Method.invoke(Native Method)\n\tat com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)\n\tat com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1003)\n"
+    },
+    "steps": [
+    ],
+    "attachments": [
+        {
+            "source": "26aa1574-dca0-4b35-a637-beed388436ce-attachment.png",
+            "name": "1694462389460",
+            "type": "image/png"
+        }
+    ],
+    "parameters": [
+    ],
+    "uuid": "cda3b33b-4323-4388-8869-174be8440513",
+    "historyId": "90c06422fe2f629debc5c02142f5539a",
+    "fullName": "ru.iteco.fmhandroid.ui.tests.AboutUsTest.followTheLinkPrivacyPolicyTest",
+    "labels": [
+        {
+            "name": "package",
+            "value": "ru.iteco.fmhandroid.ui.tests"
+        },
+        {
+            "name": "testClass",
+            "value": "ru.iteco.fmhandroid.ui.tests.AboutUsTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "followTheLinkPrivacyPolicyTest"
+        },
+        {
+            "name": "suite",
+            "value": "ru.iteco.fmhandroid.ui.tests.AboutUsTest"
+        },
+        {
+            "name": "host",
+            "value": "localhost"
+        },
+        {
+            "name": "thread",
+            "value": "Instr: androidx.test.runner.AndroidJUnitRunner(64)"
+        },
+        {
+            "name": "framework",
+            "value": "junit4"
+        },
+        {
+            "name": "language",
+            "value": "kotlin"
+        },
+        {
+            "name": "story",
+            "value": "19. Переход по ссылке Политика конфиденциальности"
+        },
+        {
+            "name": "epic",
+            "value": "Тест-кейсы для проведения функционального тестирования вкладки О приложении мобильного приложения Мобильный хоспис"
+        }
+    ]
+}

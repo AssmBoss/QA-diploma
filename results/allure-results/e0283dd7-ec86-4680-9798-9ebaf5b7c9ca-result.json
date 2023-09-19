@@ -1,0 +1,165 @@
+{
+    "name": "addNewClaimInvalidTimeTest",
+    "start": 1694285172311,
+    "stop": 1694285220981,
+    "stage": "finished",
+    "description": "Попытка создания новой претензии с корректной датой и некорректным временем во вкладке Претензии мобильного приложения Мобильный хоспис (Негативный)",
+    "descriptionHtml": null,
+    "status": "broken",
+    "statusDetails": {
+        "message": "Error performing 'single click - At Coordinates: 539, 1470 and precision: 16, 16' on view 'Animations or transitions are enabled on the target device.\nFor more info check: https://developer.android.com/training/testing/espresso/setup#set-up-environment\n\nview.getId() is <2131231291/ru.iteco.fmhandroid:id/save_button>'.",
+        "trace": "androidx.test.espresso.PerformException: Error performing 'single click - At Coordinates: 539, 1470 and precision: 16, 16' on view 'Animations or transitions are enabled on the target device.\nFor more info check: https://developer.android.com/training/testing/espresso/setup#set-up-environment\n\nview.getId() is <2131231291/ru.iteco.fmhandroid:id/save_button>'.\n\tat androidx.test.espresso.PerformException$Builder.build(PerformException.java:1)\n\tat androidx.test.espresso.base.DefaultFailureHandler.getUserFriendlyError(DefaultFailureHandler.java:9)\n\tat androidx.test.espresso.base.DefaultFailureHandler.handle(DefaultFailureHandler.java:7)\n\tat androidx.test.espresso.ViewInteraction.waitForAndHandleInteractionResults(ViewInteraction.java:8)\n\tat androidx.test.espresso.ViewInteraction.desugaredPerform(ViewInteraction.java:11)\n\tat androidx.test.espresso.ViewInteraction.perform(ViewInteraction.java:4)\n\tat ru.iteco.fmhandroid.ui.pageobj.CreateClaimPage.saveNewClaim(CreateClaimPage.java:90)\n\tat ru.iteco.fmhandroid.ui.tests.ClaimsTest.addNewClaimInvalidTimeTest(ClaimsTest.java:144)\n\tat java.lang.reflect.Method.invoke(Native Method)\n\tat org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)\n\tat org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)\n\tat org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)\n\tat org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)\n\tat androidx.test.internal.runner.junit4.statement.RunBefores.evaluate(RunBefores.java:80)\n\tat org.junit.rules.ExternalResource$1.evaluate(ExternalResource.java:54)\n\tat io.qameta.allure.android.rules.ScreenshotRule$apply$1.evaluate(ScreenshotRule.kt:22)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)\n\tat org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat androidx.test.ext.junit.runners.AndroidJUnit4.run(AndroidJUnit4.java:162)\n\tat io.qameta.allure.android.runners.AllureAndroidJUnit4.run(AllureAndroidJUnitRunners.kt:29)\n\tat org.junit.runners.Suite.runChild(Suite.java:128)\n\tat org.junit.runners.Suite.runChild(Suite.java:27)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:137)\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:115)\n\tat androidx.test.internal.runner.TestExecutor.execute(TestExecutor.java:56)\n\tat androidx.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:444)\n\tat android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2248)\nCaused by: java.time.format.DateTimeParseException: Text '25:65' could not be parsed: Invalid value for MinuteOfHour (valid values 0 - 59): 65\n\tat java.time.format.DateTimeFormatter.createError(DateTimeFormatter.java:1920)\n\tat java.time.format.DateTimeFormatter.parse(DateTimeFormatter.java:1855)\n\tat java.time.LocalTime.parse(LocalTime.java:458)\n\tat ru.iteco.fmhandroid.utils.Utils.saveDateTime(Utils.kt:69)\n\tat ru.iteco.fmhandroid.ui.CreateEditClaimFragment.fillClaim(CreateEditClaimFragment.kt:271)\n\tat ru.iteco.fmhandroid.ui.CreateEditClaimFragment.onViewCreated$lambda-10$lambda-9(CreateEditClaimFragment.kt:146)\n\tat ru.iteco.fmhandroid.ui.CreateEditClaimFragment.$r8$lambda$5UTaIa_40dsO-DvQ6DJHVIyt-tI(Unknown Source:0)\n\tat ru.iteco.fmhandroid.ui.CreateEditClaimFragment$$ExternalSyntheticLambda8.onClick(Unknown Source:4)\n\tat android.view.View.performClick(View.java:7441)\n\tat com.google.android.material.button.MaterialButton.performClick(MaterialButton.java:1131)\n\tat android.view.View.performClickInternal(View.java:7418)\n\tat android.view.View.access$3700(View.java:835)\n\tat android.view.View$PerformClick.run(View.java:28676)\n\tat android.os.Handler.handleCallback(Handler.java:938)\n\tat android.os.Handler.dispatchMessage(Handler.java:99)\n\tat androidx.test.espresso.base.Interrogator.loopAndInterrogate(Interrogator.java:14)\n\tat androidx.test.espresso.base.UiControllerImpl.loopUntil(UiControllerImpl.java:8)\n\tat androidx.test.espresso.base.UiControllerImpl.loopUntil(UiControllerImpl.java:1)\n\tat androidx.test.espresso.base.UiControllerImpl.injectMotionEvent(UiControllerImpl.java:6)\n\tat androidx.test.espresso.action.MotionEvents.sendUp(MotionEvents.java:7)\n\tat androidx.test.espresso.action.MotionEvents.sendUp(MotionEvents.java:1)\n\tat androidx.test.espresso.action.Tap.sendSingleTap(Tap.java:5)\n\tat androidx.test.espresso.action.Tap.access$100(Tap.java:1)\n\tat androidx.test.espresso.action.Tap$1.sendTap(Tap.java:3)\n\tat androidx.test.espresso.action.GeneralClickAction.perform(GeneralClickAction.java:6)\n\tat androidx.test.espresso.ViewInteraction$SingleExecutionViewAction.perform(ViewInteraction.java:2)\n\tat androidx.test.espresso.ViewInteraction.doPerform(ViewInteraction.java:22)\n\tat androidx.test.espresso.ViewInteraction.access$100(ViewInteraction.java:1)\n\tat androidx.test.espresso.ViewInteraction$1.call(ViewInteraction.java:2)\n\tat androidx.test.espresso.ViewInteraction$1.call(ViewInteraction.java:1)\n\tat java.util.concurrent.FutureTask.run(FutureTask.java:266)\n\tat android.os.Handler.handleCallback(Handler.java:938)\n\tat android.os.Handler.dispatchMessage(Handler.java:99)\n\tat android.os.Looper.loopOnce(Looper.java:201)\n\tat android.os.Looper.loop(Looper.java:288)\n\tat android.app.ActivityThread.main(ActivityThread.java:7839)\n\tat java.lang.reflect.Method.invoke(Native Method)\n\tat com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)\n\tat com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1003)\nCaused by: java.time.DateTimeException: Invalid value for MinuteOfHour (valid values 0 - 59): 65\n\tat java.time.temporal.ValueRange.checkValidIntValue(ValueRange.java:330)\n\tat java.time.temporal.ChronoField.checkValidIntValue(ChronoField.java:749)\n\tat java.time.format.Parsed.resolveTime(Parsed.java:546)\n\tat java.time.format.Parsed.resolveTimeLenient(Parsed.java:517)\n\tat java.time.format.Parsed.resolve(Parsed.java:245)\n\tat java.time.format.DateTimeParseContext.toResolved(DateTimeParseContext.java:331)\n\tat java.time.format.DateTimeFormatter.parseResolved0(DateTimeFormatter.java:1955)\n\tat java.time.format.DateTimeFormatter.parse(DateTimeFormatter.java:1851)\n\t... 37 more\n"
+    },
+    "steps": [
+        {
+            "name": "Добавить заголовок новой Претензии",
+            "start": 1694285208212,
+            "stop": 1694285208213,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Выбрать исполнителя новой Претензии",
+            "start": 1694285208387,
+            "stop": 1694285208387,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Выбрать текущую дату новой Претензии",
+            "start": 1694285211221,
+            "stop": 1694285211221,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Добавить некорректное время новой Претензии",
+            "start": 1694285213982,
+            "stop": 1694285213982,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Добавить описание новой Претензии",
+            "start": 1694285215856,
+            "stop": 1694285215856,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Сохранение новой Претензии",
+            "start": 1694285216226,
+            "stop": 1694285216226,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        }
+    ],
+    "attachments": [
+        {
+            "source": "05d66477-031c-452d-83fa-d896ff45a4d8-attachment.png",
+            "name": "1694285172354",
+            "type": "image/png"
+        }
+    ],
+    "parameters": [
+    ],
+    "uuid": "e0283dd7-ec86-4680-9798-9ebaf5b7c9ca",
+    "historyId": "b52d0a530d63e96fd83dbb19b0062692",
+    "fullName": "ru.iteco.fmhandroid.ui.tests.ClaimsTest.addNewClaimInvalidTimeTest",
+    "labels": [
+        {
+            "name": "package",
+            "value": "ru.iteco.fmhandroid.ui.tests"
+        },
+        {
+            "name": "testClass",
+            "value": "ru.iteco.fmhandroid.ui.tests.ClaimsTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "addNewClaimInvalidTimeTest"
+        },
+        {
+            "name": "suite",
+            "value": "ru.iteco.fmhandroid.ui.tests.ClaimsTest"
+        },
+        {
+            "name": "host",
+            "value": "localhost"
+        },
+        {
+            "name": "thread",
+            "value": "Instr: androidx.test.runner.AndroidJUnitRunner(54)"
+        },
+        {
+            "name": "framework",
+            "value": "junit4"
+        },
+        {
+            "name": "language",
+            "value": "kotlin"
+        },
+        {
+            "name": "story",
+            "value": "18. Добавление новой претензии с корректной датой и некорректным временем"
+        },
+        {
+            "name": "epic",
+            "value": "Тест-кейсы для проведения функционального тестирования вкладки Претензии мобильного приложения Мобильный хоспис"
+        }
+    ]
+}

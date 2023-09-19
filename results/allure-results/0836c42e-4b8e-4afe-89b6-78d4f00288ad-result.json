@@ -1,0 +1,61 @@
+{
+    "name": "successfulLogOut",
+    "start": 1694550518009,
+    "stop": 1694550547595,
+    "stage": "finished",
+    "description": "Успешный логаут из ЛК через меню ЛК приложения 'Мобильный хоспис' (Позитивный)",
+    "descriptionHtml": null,
+    "status": "passed",
+    "statusDetails": null,
+    "steps": [
+    ],
+    "attachments": [
+    ],
+    "parameters": [
+    ],
+    "uuid": "0836c42e-4b8e-4afe-89b6-78d4f00288ad",
+    "historyId": "819c98ce8845549075834117345adca0",
+    "fullName": "ru.iteco.fmhandroid.ui.tests.LoginTest.successfulLogOut",
+    "labels": [
+        {
+            "name": "package",
+            "value": "ru.iteco.fmhandroid.ui.tests"
+        },
+        {
+            "name": "testClass",
+            "value": "ru.iteco.fmhandroid.ui.tests.LoginTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "successfulLogOut"
+        },
+        {
+            "name": "suite",
+            "value": "ru.iteco.fmhandroid.ui.tests.LoginTest"
+        },
+        {
+            "name": "host",
+            "value": "localhost"
+        },
+        {
+            "name": "thread",
+            "value": "Instr: androidx.test.runner.AndroidJUnitRunner(64)"
+        },
+        {
+            "name": "framework",
+            "value": "junit4"
+        },
+        {
+            "name": "language",
+            "value": "kotlin"
+        },
+        {
+            "name": "story",
+            "value": "2. Успешный логаут из ЛК"
+        },
+        {
+            "name": "epic",
+            "value": "Тесты для функционального тестирования: логин(вход) и логаут(выход) из личного кабинета(ЛК) мобильного приложения 'Мобильный хоспис' "
+        }
+    ]
+}

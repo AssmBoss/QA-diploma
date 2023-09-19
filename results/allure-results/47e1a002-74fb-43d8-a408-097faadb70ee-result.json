@@ -1,0 +1,133 @@
+{
+    "name": "followTheLinkTermsOfUseTest",
+    "start": 1695070635639,
+    "stop": 1695070665125,
+    "stage": "finished",
+    "description": "Перейти по ссылке 'Правила использования' во вкладке 'О приложении' мобильного приложения 'Мобильный хоспис' и дождаться загрузки информации (Позитивный)",
+    "descriptionHtml": null,
+    "status": "failed",
+    "statusDetails": {
+        "message": "Wanted to match 1 intents. Actually matched 0 intents.\n\nIntentMatcher: has data: is <https://vhospice.org/#/terms-of-use>\n\nMatched intents:[]\n\nRecorded intents:\n-Intent { act=android.intent.action.VIEW dat=https://vhospice.org/... (has extras) } handling packages:[[]], extras:[Bundle[{com.android.browser.application_id=ru.iteco.fmhandroid}]])",
+        "trace": "junit.framework.AssertionFailedError: Wanted to match 1 intents. Actually matched 0 intents.\n\nIntentMatcher: has data: is <https://vhospice.org/#/terms-of-use>\n\nMatched intents:[]\n\nRecorded intents:\n-Intent { act=android.intent.action.VIEW dat=https://vhospice.org/... (has extras) } handling packages:[[]], extras:[Bundle[{com.android.browser.application_id=ru.iteco.fmhandroid}]])\n\tat junit.framework.Assert.fail(Assert.java:50)\n\tat androidx.test.espresso.intent.VerificationModes$Times.verify(VerificationModes.java:80)\n\tat androidx.test.espresso.intent.Intents.internalIntended(Intents.java:350)\n\tat androidx.test.espresso.intent.Intents$3.run(Intents.java:208)\n\tat androidx.test.espresso.intent.Intents$PropogatingRunnable.run(Intents.java:228)\n\tat java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:462)\n\tat java.util.concurrent.FutureTask.run(FutureTask.java:266)\n\tat android.app.Instrumentation$SyncRunnable.run(Instrumentation.java:2266)\n\tat android.os.Handler.handleCallback(Handler.java:938)\n\tat android.os.Handler.dispatchMessage(Handler.java:99)\n\tat android.os.Looper.loopOnce(Looper.java:201)\n\tat android.os.Looper.loop(Looper.java:288)\n\tat android.app.ActivityThread.main(ActivityThread.java:7839)\n\tat java.lang.reflect.Method.invoke(Native Method)\n\tat com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)\n\tat com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1003)\n"
+    },
+    "steps": [
+        {
+            "name": "Ожидание загрузкт страницы с указанным элементом",
+            "start": 1695070642866,
+            "stop": 1695070642867,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Выбор(клик) элемента в главном меню",
+            "start": 1695070648733,
+            "stop": 1695070648733,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Клик по выбранному элементу на странице",
+            "start": 1695070648734,
+            "stop": 1695070648734,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Клик по выбранному элементу на странице",
+            "start": 1695070658753,
+            "stop": 1695070658753,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        }
+    ],
+    "attachments": [
+        {
+            "source": "d72a2b05-2f7d-4d35-8918-b1abfdea9b67-attachment.png",
+            "name": "1695070635645",
+            "type": "image/png"
+        }
+    ],
+    "parameters": [
+    ],
+    "uuid": "47e1a002-74fb-43d8-a408-097faadb70ee",
+    "historyId": "e4bc6d6139671004219b6c616054b97",
+    "fullName": "ru.iteco.fmhandroid.ui.tests.AboutUsTest.followTheLinkTermsOfUseTest",
+    "labels": [
+        {
+            "name": "package",
+            "value": "ru.iteco.fmhandroid.ui.tests"
+        },
+        {
+            "name": "testClass",
+            "value": "ru.iteco.fmhandroid.ui.tests.AboutUsTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "followTheLinkTermsOfUseTest"
+        },
+        {
+            "name": "suite",
+            "value": "ru.iteco.fmhandroid.ui.tests.AboutUsTest"
+        },
+        {
+            "name": "host",
+            "value": "localhost"
+        },
+        {
+            "name": "thread",
+            "value": "Instr: androidx.test.runner.AndroidJUnitRunner(81)"
+        },
+        {
+            "name": "framework",
+            "value": "junit4"
+        },
+        {
+            "name": "language",
+            "value": "kotlin"
+        },
+        {
+            "name": "story",
+            "value": "Case 28. Переход по ссылке 'Правила использования'"
+        },
+        {
+            "name": "epic",
+            "value": "Тест-кейсы для проведения функционального тестирования вкладки 'О приложении' мобильного приложения 'Мобильный хоспис'"
+        }
+    ]
+}
